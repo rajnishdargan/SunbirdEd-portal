@@ -28,7 +28,7 @@ import { CslFrameworkService } from '../public/services/csl-framework/csl-framew
 @NgModule({
   providers: [
     { provide: QsEditorCursor, useExisting: QumlPlayerV2Service },
-    { provide: QsCursor, useExisting: QumlPlayerV2Service },
+    // { provide: QsCursor, useExisting: QumlPlayerV2Service },
     CslFrameworkService
     // { provide: QuestionCursor, useExisting: QumlPlayerService },
     // { provide: EditorCursor, useExisting: QumlPlayerService },
@@ -42,7 +42,7 @@ import { CslFrameworkService } from '../public/services/csl-framework/csl-framew
     FormsModule,
     CommonConsumptionModule,
     SunbirdPdfPlayerModule,
-    QsLibModule,
+    // QsLibModule,
     // QumlLibraryModule,
     SunbirdEpubPlayerModule,
     SunbirdVideoPlayerModule,

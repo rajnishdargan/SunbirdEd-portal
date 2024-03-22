@@ -63,6 +63,11 @@
                 "glob": "**/*",
                 "input": "node_modules/@project-sunbird/sunbird-questionset-editor/lib/assets",
                 "output": "/assets/"
+              },
+              {
+                "glob": "**/*",
+                "input": "node_modules/@project-sunbird/sunbird-quml-player-web-component/assets/",
+                "output": "/assets/"
               }
             ],
             "styles": [
@@ -81,7 +86,8 @@
               "./node_modules/@project-sunbird/sb-themes/themes/themes-portal.scss",
               "node_modules/videojs-http-source-selector/dist/videojs-http-source-selector.css",
               "node_modules/@project-sunbird/sunbird-video-player-v9/lib/assets/videojs.markers.min.css",
-              "./node_modules/@project-sunbird/discussions-ui/assets/styles/global.scss"
+              "./node_modules/@project-sunbird/discussions-ui/assets/styles/global.scss",
+              "node_modules/@project-sunbird/sunbird-quml-player-web-component/styles.css"
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
@@ -90,6 +96,7 @@
               ]
             },
             "scripts": [
+              "node_modules/@project-sunbird/sunbird-quml-player-web-component/sunbird-quml-player.js",
               "node_modules/epubjs/dist/epub.js",
               "src/assets/libs/iziToast/iziToast.min.js",
               "node_modules/jquery/dist/jquery.min.js",
